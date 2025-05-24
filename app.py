@@ -359,8 +359,8 @@ def main():
     # Footer
     st.markdown("---")
     st.markdown(
-        "<div style='text-align: center; color: #666;'>"
-        "Powered by Groq AI" + (" + Firecrawl" if firecrawl_api_key else "") + " | Built with ❤️ using Streamlit"
+        "<div style='text-align: center; color: #666; font-style: Italic'>"
+        "Blog Summarizer | Cortexx AI"
         "</div>",
         unsafe_allow_html=True
     )
